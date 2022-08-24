@@ -62,10 +62,11 @@ function testeConectividade() {
         '1.1.1.1' => array('port' => 80),
         'dns.google' => array('port' => 443),
 
-        'lg.nj.colocrossing.com' => array('port' => 80, 'mincache' => 30, 'maxcache' => 60 ),
+        
+        'ashburn-colocrossing.data2.com.br' => array('port' => 80, 'mincache' => 30, 'maxcache' => 60 ),
         'lg.atl.colocrossing.com' => array('port' => 80, 'mincache' => 30, 'maxcache' => 60 ),
+        
         'lg.dal.colocrossing.com' => array('port' => 80, 'mincache' => 30, 'maxcache' => 60 ),
-        'lg.ny.colocrossing.com' => array('port' => 80, 'mincache' => 30, 'maxcache' => 60 ),
         'lg.nyc.colocrossing.com' => array('port' => 80, 'mincache' => 30, 'maxcache' => 60 ),
     );
 
