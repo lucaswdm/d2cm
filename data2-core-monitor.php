@@ -21,8 +21,6 @@ $VET['network'] = testeConectividade();
 
 $VET['domains'] = getDataDomains();
 
-#$VET['http'] = file_get_contents('https://s3.waw.cloud.ovh.net/');
-
 header("Content-type: application/json");
 echo json_encode($VET, JSON_PRETTY_PRINT);
 
@@ -54,7 +52,7 @@ function testeConectividade() {
         's3.sbg.cloud.ovh.net' => array(),
         's3.gra.cloud.ovh.net' => array(),
         's3.uk.cloud.ovh.net' => array(),
-        's3.de.cloud.ovh.net' => array(),
+        #'s3.de.cloud.ovh.net' => array(),
         's3.waw.cloud.ovh.net' => array(),
 
         'objectstorage.sa-saopaulo-1.oraclecloud.com' => array('port' => 443, 'mincache' => 60, 'maxcache' => 120 ),
